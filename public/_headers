@@ -1,0 +1,7 @@
+# Cấu hình header cho Cloudflare Pages (bỏ qua khi chạy local)
+/sw.js
+  Cache-Control: no-cache
+/cards/*
+  Cache-Control: no-cache
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
